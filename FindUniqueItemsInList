@@ -1,0 +1,2 @@
+  val input = intArrayOf(1, 4, 3, 3, 1, 2, 4, 2)
+  input.toMutableList().groupingBy { it }.eachCount().filter { it.value == 1 }.keys.first()
